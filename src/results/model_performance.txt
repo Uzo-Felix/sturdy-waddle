@@ -1,0 +1,112 @@
+Heart Disease Classification Results
+==================================
+
+Data Information:
+Total samples: 297
+Binary features: ['age_30plus', 'age_45plus', 'age_60plus', 'bp_120plus', 'bp_140plus', 'bp_160plus', 'cp_1.0', 'cp_2.0', 'cp_3.0', 'cp_4.0']
+
+Model Performance:
+
+Random Forest Results:
+Accuracy: 0.8833
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.89      0.90        36
+           1       0.84      0.88      0.86        24
+
+    accuracy                           0.88        60
+   macro avg       0.88      0.88      0.88        60
+weighted avg       0.88      0.88      0.88        60
+
+
+XGBoost Results:
+Accuracy: 0.8333
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.81      0.85        36
+           1       0.75      0.88      0.81        24
+
+    accuracy                           0.83        60
+   macro avg       0.83      0.84      0.83        60
+weighted avg       0.84      0.83      0.83        60
+
+
+Logistic Regression Results:
+Accuracy: 0.8667
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.89      0.89        36
+           1       0.83      0.83      0.83        24
+
+    accuracy                           0.87        60
+   macro avg       0.86      0.86      0.86        60
+weighted avg       0.87      0.87      0.87        60
+
+
+KNN Results:
+Accuracy: 0.8333
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.89      0.86        36
+           1       0.82      0.75      0.78        24
+
+    accuracy                           0.83        60
+   macro avg       0.83      0.82      0.82        60
+weighted avg       0.83      0.83      0.83        60
+
+
+Decision Tree Results:
+Accuracy: 0.8000
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.75      0.82        36
+           1       0.70      0.88      0.78        24
+
+    accuracy                           0.80        60
+   macro avg       0.80      0.81      0.80        60
+weighted avg       0.82      0.80      0.80        60
+
+
+Naive Bayes Results:
+Accuracy: 0.9167
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.97      0.93        36
+           1       0.95      0.83      0.89        24
+
+    accuracy                           0.92        60
+   macro avg       0.92      0.90      0.91        60
+weighted avg       0.92      0.92      0.92        60
+
+
+CatBoost Results:
+Accuracy: 0.8500
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.86      0.87        36
+           1       0.80      0.83      0.82        24
+
+    accuracy                           0.85        60
+   macro avg       0.84      0.85      0.84        60
+weighted avg       0.85      0.85      0.85        60
+
+
+Neural FCA Results:
+Accuracy: 0.6000
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.60      1.00      0.75        36
+           1       0.00      0.00      0.00        24
+
+    accuracy                           0.60        60
+   macro avg       0.30      0.50      0.38        60
+weighted avg       0.36      0.60      0.45        60
+
